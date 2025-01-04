@@ -1,14 +1,19 @@
-name: API Test Framrework
+name: API Test Framework
 
 on:
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  schedule:
+    # Runs daily at 12:15 PM EST (5:15 PM UTC)
+    - cron: '15 17 * * *'  # Daily at 5:15 PM UTC
+    # Runs Monday, Thursday, and Saturday at 12:15 PM EST (5:15 PM UTC)
+    - cron: '15 17 * * 1,4,6'  # Monday, Thursday, and Saturday at 5:15 PM UTC
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -21,3 +26,21 @@ jobs:
         cache: maven
     - name: Execute Tests
       run: mvn clean test -Dsuite=testng -X
+
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: |
+          test-output/reports/
+          target/surefire-reports/
+          logs/
+    
+    - name: Publish Test Report
+      if: always()
+      uses: dorny/test-reporter@v1
+      with:
+        name: TestNG Results
+        path: target/surefire-reports/junitreports/TEST-*.xml
+        reporter: java-junit
