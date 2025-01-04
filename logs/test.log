@@ -1,0 +1,135 @@
+10:02:49:204 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+10:02:49:225 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+10:02:51:220 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+10:02:51:222 [main] INFO  com.api.listerners.TestListerners -Test case Description null
+10:02:51:226 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed
+10:04:04:590 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+10:04:04:619 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+10:04:07:949 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+10:04:07:950 [main] INFO  com.api.listerners.TestListerners -Test case Description null
+10:04:07:952 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed
+10:05:52:890 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+10:05:52:934 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+10:05:57:093 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+10:05:57:095 [main] INFO  com.api.listerners.TestListerners -Test case Description To verify the login test
+10:05:57:100 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed
+11:00:06:458 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+11:00:06:518 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+11:00:06:554 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+11:00:06:618 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+11:00:09:883 [main] INFO  com.api.filters.LoggingFilter -BASE URI is :http://64.227.160.186:8080
+11:00:09:884 [main] INFO  com.api.filters.LoggingFilter -BASE Path is :
+11:00:09:886 [main] INFO  com.api.filters.LoggingFilter -Request Header is :Accept=*/*
+Content-Type=application/json
+11:00:09:886 [main] INFO  com.api.filters.LoggingFilter -Request Payload is:{"username":"neil","password":"learn2621"}
+11:00:09:894 [main] INFO  com.api.filters.LoggingFilter -BASE URI is :http://64.227.160.186:8080
+11:00:09:896 [main] INFO  com.api.filters.LoggingFilter -BASE Path is :
+11:00:09:897 [main] INFO  com.api.filters.LoggingFilter -Request Header is :Accept=*/*
+Content-Type=application/json
+11:00:09:898 [main] INFO  com.api.filters.LoggingFilter -Request Payload is:{"username":"neil","password":"learn2621"}
+11:00:10:897 [main] INFO  com.api.filters.LoggingFilter -Status code is :200
+11:00:10:898 [main] INFO  com.api.filters.LoggingFilter -Response Header is :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 04 Jan 2025 05:30:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:00:10:900 [main] INFO  com.api.filters.LoggingFilter -Status code is :200
+11:00:10:901 [main] INFO  com.api.filters.LoggingFilter -Response Header is :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 04 Jan 2025 05:30:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:00:11:039 [main] INFO  com.api.filters.LoggingFilter -Response Body is :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZWlsIiwiaWF0IjoxNzM1OTY4NjExLCJleHAiOjE3MzU5NzIyMTF9.eiRcNtRlkf_FCPOALdaXaV_nvG18R3K80ebMeEhJmzw",
+    "type": "Bearer",
+    "id": 601,
+    "username": "Neil",
+    "email": "learn2621@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+11:00:11:059 [main] INFO  com.api.filters.LoggingFilter -Response Body is :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZWlsIiwiaWF0IjoxNzM1OTY4NjExLCJleHAiOjE3MzU5NzIyMTF9.eiRcNtRlkf_FCPOALdaXaV_nvG18R3K80ebMeEhJmzw",
+    "type": "Bearer",
+    "id": 601,
+    "username": "Neil",
+    "email": "learn2621@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+11:00:11:219 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+11:00:11:218 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+11:00:11:221 [main] INFO  com.api.listerners.TestListerners -Test case Description To verify the login test
+11:00:11:220 [main] INFO  com.api.listerners.TestListerners -Test case Description To verify the login test
+11:00:11:229 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed
+11:00:11:229 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed
+11:25:44:954 [main] INFO  com.api.listerners.TestListerners -Test Suite Started
+11:25:44:968 [main] INFO  com.api.listerners.TestListerners -Test case started loginTest
+11:25:46:449 [main] INFO  com.api.filters.LoggingFilter -BASE URI is :http://64.227.160.186:8080
+11:25:46:463 [main] INFO  com.api.filters.LoggingFilter -BASE Path is :
+11:25:46:463 [main] INFO  com.api.filters.LoggingFilter -Request Header is :Accept=*/*
+Content-Type=application/json
+11:25:46:463 [main] INFO  com.api.filters.LoggingFilter -Request Payload is:{"username":"neil","password":"learn2621"}
+11:25:46:938 [main] INFO  com.api.filters.LoggingFilter -Status code is :200
+11:25:46:938 [main] INFO  com.api.filters.LoggingFilter -Response Header is :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 04 Jan 2025 05:55:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:25:47:002 [main] INFO  com.api.filters.LoggingFilter -Response Body is :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOZWlsIiwiaWF0IjoxNzM1OTcwMTQ3LCJleHAiOjE3MzU5NzM3NDd9.7VrJlUg0XIxKcTnb-jCI5juB4esh4Q4gxO1iDFWMBRY",
+    "type": "Bearer",
+    "id": 601,
+    "username": "Neil",
+    "email": "learn2621@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+11:25:47:053 [main] INFO  com.api.listerners.TestListerners -Test case Success loginTest
+11:25:47:059 [main] INFO  com.api.listerners.TestListerners -Test case Description To verify the login test
+11:25:47:059 [main] INFO  com.api.listerners.TestListerners -Test Suite Completed

@@ -1,17 +1,17 @@
 package com.api.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import com.api.base.AuthService;
 import com.api.models.requests.LoginRequest;
 import com.api.models.response.LoginResponse;
-
 import io.restassured.response.Response;
 
+@Listeners(com.api.listerners.TestListerners.class)
 public class LoginTest {
 
-	@Test
+	@Test(description = "To verify the login test")
 	public void loginTest() {
 		// Create a LoginRequest object with username and password
 		LoginRequest loginRequest = new LoginRequest("neil", "learn2621");
